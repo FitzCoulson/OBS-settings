@@ -52,14 +52,14 @@ It's a basic setting of OBS in order to improve the streaming experience.
 
   * B站直播：首先打开B站直播首页：https://live.bilibili.com/ ，选择右侧开播设置，完成封面和简介设置后，点击开始直播，此时便能看到你的服务器地址和串流密钥
   * 小红书、抖音、淘宝、快手、拼多多直播：这些平台不提供服务器地址和串流密钥，所以需要通过软件获取
-   ** 下载魔豆推流助手：https://www.modou.tv/?p=2134
-   ** 下载完成后安装打开（如果报毒则关闭杀毒软件）
-   ** 选择相应的直播平台后，输入账号密码登录，点击提取
-   ** ![image](https://user-images.githubusercontent.com/42920883/160767522-bd61367c-981d-4d3c-97f9-cdb982b61473.png)
-   ** 打开官方的直播助手后，开始直播
-   ** ![image](https://user-images.githubusercontent.com/42920883/160767729-3990ee40-e6e1-4e92-905a-e25501b6bdf9.png)
-   ** 此时官方直播助手会关闭，并获取到推流地址
-   ** ![image](https://user-images.githubusercontent.com/42920883/160767757-32ff64b0-309e-49cc-bcf8-3adfcac5a66a.png)
+   * 下载魔豆推流助手：https://www.modou.tv/?p=2134
+   * 下载完成后安装打开（如果报毒则关闭杀毒软件）
+   * 选择相应的直播平台后，输入账号密码登录，点击提取
+   * ![image](https://user-images.githubusercontent.com/42920883/160767522-bd61367c-981d-4d3c-97f9-cdb982b61473.png)
+   * 打开官方的直播助手后，开始直播
+   * ![image](https://user-images.githubusercontent.com/42920883/160767729-3990ee40-e6e1-4e92-905a-e25501b6bdf9.png)
+   * 此时官方直播助手会关闭，并获取到推流地址
+   * ![image](https://user-images.githubusercontent.com/42920883/160767757-32ff64b0-309e-49cc-bcf8-3adfcac5a66a.png)
   * 小鹅通推流教程：https://helpcenter.xiaoe-tech.com/#/problem/detail?document_id=doc_618c93603ffb7_r1G4G
 
 * 将获取到的串流地址和密钥复制到OBS的设置中，返回到主界面，在右下角选择开始推流，此时便可在直播间看到自己的画面
