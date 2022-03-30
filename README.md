@@ -1,6 +1,7 @@
 # OBS-settings
 It's a basic setting of OBS in order to improve the streaming experience.
 
+
 ## 认识OBS ##
 * OBS全称Open Broadcaster Software，它比各大平台自己的直播软件功能更强大
 * 下载地址：https://obsproject.com/
@@ -8,6 +9,7 @@ It's a basic setting of OBS in order to improve the streaming experience.
 
 * 安装完成后，关闭欢迎向导，就能看到OBS的主界面
 ![image](https://user-images.githubusercontent.com/42920883/160761271-1fe0e798-edb4-4686-b01f-a21c4de8d34a.png)
+
 
 ## 添加直播窗口 ##
 * 在“来源”窗口点击加号，即可添加直播来源
@@ -37,10 +39,12 @@ It's a basic setting of OBS in order to improve the streaming experience.
   
   * 此时红框内的画面即为直播场景画面，此时可以通过按住红点来缩放场景
   
+  
 ## 笔记本黑屏解决方法（如果无此现象则跳过） ##
 * 如果笔记使用混合输出技术，可能会导致采集到黑屏画面
 * Windows10 NVIDIA显卡：右键桌面，选择NVIDIA控制面板，在管理3D设置中找到程序设置，找到OBS，将图形处理器中改为集成图形，应用保存
 * ![image](https://user-images.githubusercontent.com/42920883/160764958-58c27959-be2c-4b01-912e-9cf5b9492ef0.png)
+
 
 ## 将画面传输到直播间 ##
 * 在OBS的顶栏选择“文件”中的“设置”，选择“推流”选项，将服务设置为自定义。此时需要填写服务器和串流密码，此内容由直播平台提供。
@@ -60,6 +64,7 @@ It's a basic setting of OBS in order to improve the streaming experience.
 * 将获取到的串流地址和密钥复制到OBS的设置中，返回到主界面，在右下角选择开始推流，此时便可在直播间看到自己的画面
 * 如果提示连接失败，则重新确认一下地址和密钥是否填错。亦或是长时间未操作导致直播平台将直播间设置为下播状态，则需要重新进行开播
 
+
 ## 优化直播画面 ##
 # 分辨率和帧率
 * 打开OBS“设置”，选择“视频”，这里有两个分辨率选项，基础分辨率为OBS采集的画面范围，输出分辨率为观众看到的画面分辨率
@@ -77,6 +82,7 @@ It's a basic setting of OBS in order to improve the streaming experience.
 * 如果CPU无法在very fast上正常推流，则考虑使用显卡推流
 * N卡或A卡使用NVENC或AVC Encoder编码器，Mac用户不推荐使用VT编码器，兼容性不好
 * 注：此为CPU性能不足时使用，优先仍选择x264编码器
+
 
 ## 优化直播声音 ##
 * 在混音器面板中，桌面音频是系统发出的声音（如正在播放的音乐），麦克风为收录的外界的声音
@@ -109,6 +115,7 @@ It's a basic setting of OBS in order to improve the streaming experience.
 * 在Broadcast，在麦克风界面设置正在使用的麦克风，试听降噪的效果
 * 在OBS的混音器，选择麦克风的属性，将设备设置为NVIDIA Broadcast
 
+
 ## 个性化直播间 ##
 * 根据自己的喜好，添加一些其他元素，如摄像头、留言栏、文字说明等
 * 咩播云插件：https://kuabo.cn/
@@ -118,6 +125,7 @@ It's a basic setting of OBS in order to improve the streaming experience.
 * 如果仍觉得不够用，可在OBS官方论坛寻找第三方插件：https://obsproject.com/forum/
 
 * 在“来源”中移动元素的位置，可以调节元素间的遮盖关系（类似PS的图层）
+
 
 ## 参考链接 ##
 * https://www.bilibili.com/video/BV1pL411N7gP?share_source=copy_web
