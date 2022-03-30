@@ -66,11 +66,11 @@ It's a basic setting of OBS in order to improve the streaming experience.
 
 
 ## 优化直播画面 ##
-# 分辨率和帧率
+## 分辨率和帧率
 * 打开OBS“设置”，选择“视频”，这里有两个分辨率选项，基础分辨率为OBS采集的画面范围，输出分辨率为观众看到的画面分辨率
 * 一般来说，只需要调整输出分辨率。建议使用1920\*1080分辨率，如果为聊天、课程等直播内容可将帧率调为30，如果为户外、游戏等直播内容可将帧率调整为60
 
-# 编码器和码率
+## 编码器和码率
 * 在“设置”中的“输出”中，将“输出模式”改为高级。
 * 编码器优先选择x264
 * 在1920\*1080的分辨率下，30帧时应该将码率设置在4500kbps左右，60帧时将码率设置在6500kbps，如果为游戏直播，则将码率设置为10000kbps
@@ -89,7 +89,7 @@ It's a basic setting of OBS in order to improve the streaming experience.
 * ![image](https://user-images.githubusercontent.com/42920883/160772585-3118ba35-a9ab-4aff-948e-22f2cdbe5532.png)
 * 右侧的齿轮按钮为设置，在两个音频中的设置里的属性，选择正在使用的设备
 
-# 麦克风的调试：
+## 麦克风的调试：
 * 简单的说几句话进行测试，如果指示条出现红色，则说明声音过爆，使用指示条下方的滑块将声音变小，或离麦克风稍远一些
 
 ## 解决MacOS无法捕捉桌面音频（如果无此现象则跳过） 
@@ -102,7 +102,7 @@ It's a basic setting of OBS in order to improve the streaming experience.
 * 在OBS中的“场景”中添加“音频输出采集”，选择BlackHole 2ch
 * 调整好系统音量，声音输出设备改为刚刚创建的“多输出设备”
 
-# 降噪
+## 降噪
 * 选择“麦克风”的设置，选择滤镜，添加噪声抑制，选择RNNosie，即可消除大多数电流声和底噪
 * ![image](https://user-images.githubusercontent.com/42920883/160775285-e1748bb4-b3a7-4e58-bbd0-f2099e32ef11.png)
 
