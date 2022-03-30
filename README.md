@@ -2,7 +2,7 @@
 It's a basic setting of OBS in order to improve the streaming experience.
 
 
-## 认识OBS ##
+# 认识OBS #
 * OBS全称Open Broadcaster Software，它比各大平台自己的直播软件功能更强大
 * 下载地址：https://obsproject.com/
 * 下载后直接打开，根据步骤安装即可，在此不多赘述
@@ -11,7 +11,7 @@ It's a basic setting of OBS in order to improve the streaming experience.
 ![image](https://user-images.githubusercontent.com/42920883/160761271-1fe0e798-edb4-4686-b01f-a21c4de8d34a.png)
 
 
-## 添加直播窗口 ##
+# 添加直播窗口 #
 * 在“来源”窗口点击加号，即可添加直播来源
 ![image](https://user-images.githubusercontent.com/42920883/160761693-fba76479-99d3-4de8-a08a-42e783d4083a.png)
 
@@ -40,13 +40,13 @@ It's a basic setting of OBS in order to improve the streaming experience.
   * 此时红框内的画面即为直播场景画面，此时可以通过按住红点来缩放场景
   
   
-## 笔记本黑屏解决方法（如果无此现象则跳过） ##
+# 笔记本黑屏解决方法（如果无此现象则跳过） #
 * 如果笔记使用混合输出技术，可能会导致采集到黑屏画面
 * Windows10 NVIDIA显卡：右键桌面，选择NVIDIA控制面板，在管理3D设置中找到程序设置，找到OBS，将图形处理器中改为集成图形，应用保存
 * ![image](https://user-images.githubusercontent.com/42920883/160764958-58c27959-be2c-4b01-912e-9cf5b9492ef0.png)
 
 
-## 将画面传输到直播间 ##
+# 将画面传输到直播间 #
 * 在OBS的顶栏选择“文件”中的“设置”，选择“推流”选项，将服务设置为自定义。此时需要填写服务器和串流密码，此内容由直播平台提供。
 * ![image](https://user-images.githubusercontent.com/42920883/160767955-c7e106b7-2e04-481e-a8ee-212dac894091.png)
 
@@ -65,7 +65,7 @@ It's a basic setting of OBS in order to improve the streaming experience.
 * 如果提示连接失败，则重新确认一下地址和密钥是否填错。亦或是长时间未操作导致直播平台将直播间设置为下播状态，则需要重新进行开播
 
 
-## 优化直播画面 ##
+# 优化直播画面 #
 ## 分辨率和帧率
 * 打开OBS“设置”，选择“视频”，这里有两个分辨率选项，基础分辨率为OBS采集的画面范围，输出分辨率为观众看到的画面分辨率
 * 一般来说，只需要调整输出分辨率。建议使用1920\*1080分辨率，如果为聊天、课程等直播内容可将帧率调为30，如果为户外、游戏等直播内容可将帧率调整为60
@@ -84,7 +84,7 @@ It's a basic setting of OBS in order to improve the streaming experience.
 * 注：此为CPU性能不足时使用，优先仍选择x264编码器
 
 
-## 优化直播声音 ##
+# 优化直播声音 #
 * 在混音器面板中，桌面音频是系统发出的声音（如正在播放的音乐），麦克风为收录的外界的声音
 * ![image](https://user-images.githubusercontent.com/42920883/160772585-3118ba35-a9ab-4aff-948e-22f2cdbe5532.png)
 * 右侧的齿轮按钮为设置，在两个音频中的设置里的属性，选择正在使用的设备
@@ -116,7 +116,7 @@ It's a basic setting of OBS in order to improve the streaming experience.
 * 在OBS的混音器，选择麦克风的属性，将设备设置为NVIDIA Broadcast
 
 
-## 个性化直播间 ##
+# 个性化直播间 #
 * 根据自己的喜好，添加一些其他元素，如摄像头、留言栏、文字说明等
 * 咩播云插件：https://kuabo.cn/
   * 填写直播间号，选择需要的插件,复制地址
