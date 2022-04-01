@@ -1,15 +1,15 @@
-# 前期准备#
+# 前期准备 #
 * 首先下载一个Chrome内核的浏览器，Chrome或Edge浏览器等
 * Chrome：https://www.google.cn/intl/zh-CN/chrome/
 * Edge:https://www.microsoft.com/zh-cn/edge?r=1
 
-# 打开小红书直播链接接口#
+# 打开小红书直播链接接口 #
 * 链接：https://robs.xiaohongshu.com/
 
-# 打开Console#
+# 打开Console #
 * 按F12打开浏览器，Chrome选择Console，Edge选择控制台
 
-# 复制代码#
+# 复制代码 #
 * 点击代码块右上角复制到Console中
 ```
 class LittleRedBookHelper {
@@ -192,10 +192,11 @@ class LittleRedBookHelper {
 new LittleRedBookHelper().getObsPathAndStartLive()
 ```
 
-# 首次登录#
+# 运行 #
 * 按回车运行后首次登录会提示输入手机号验证码，即可继续后续步骤，之后登录将不再需要验证码
 * 输入手机号
 * 输入短信验证码
 * 输入直播间标题
 * 输入封面地址
 * 此时即可获得推流码地址
+* 复制推流码地址到OBS推流的服务器地址，无需串流密钥
