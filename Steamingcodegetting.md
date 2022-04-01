@@ -199,4 +199,8 @@ new LittleRedBookHelper().getObsPathAndStartLive()
 * 输入直播间标题
 * 输入封面地址
 * 此时即可获得推流码地址
-* 复制推流码地址到OBS推流的服务器地址，无需串流密钥
+* 服务器地址填
+* ![image](https://user-images.githubusercontent.com/42920883/161201015-ad15ddf6-fdeb-41ab-bec5-35fd21c7bc3e.png)
+* 串流密钥填
+* ![image](https://user-images.githubusercontent.com/42920883/161201066-1eb9d239-3b23-4f31-a52f-282449b32116.png)
+
