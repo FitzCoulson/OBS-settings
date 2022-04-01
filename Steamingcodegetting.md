@@ -10,6 +10,7 @@
 * 按F12打开浏览器，Chrome选择Console，Edge选择控制台
 
 # 复制代码#
+* 点击代码块右上角复制到Console中
 ```
 class LittleRedBookHelper {
   countryCode = '86'
