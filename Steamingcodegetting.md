@@ -7,7 +7,7 @@
 * 链接：https://robs.xiaohongshu.com/
 
 # 打开Console #
-* 按F12打开浏览器，Chrome选择Console，Edge选择控制台
+* 按F12打开浏览器开发人员工具，Chrome选择Console，Edge选择控制台
 
 # 复制代码 #
 * 点击代码块右上角复制到Console中
